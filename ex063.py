@@ -1,0 +1,12 @@
+cont = int(input('Escreva até qual elemento deseja ver em uma sequencia de Fibonacci: '))
+n1 = 0
+n2 = 1
+n3 = n1 + n2
+print(n1, end=' ')
+print(n2, end=' ')
+while cont - 2 != 0:
+    print(n3, end=' ')
+    n1 = n2
+    n2 = n3
+    n3 = n1 + n2
+    cont -= 1
